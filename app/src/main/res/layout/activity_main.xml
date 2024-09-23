@@ -5,15 +5,103 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android: android:background="@drawable/Background1"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in "
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/txtDontHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account ? "
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="706dp" />
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Password"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Email Address"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="426dp" />
+
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="252dp"
-        android:layout_height="418dp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="-37dp"
-        tools:srcCompat="@drawable/Logo" />
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="372dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="434dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="491dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
